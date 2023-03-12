@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Inter-Medium';
+    src: url(../Inter/static/Inter-Medium.ttf) format('truetype');
+    font-weight: medium;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: #2F829A;
+}
+
+.navLinks {
+    display: flex;
+    list-style: none;
+}
+
+.img {
+    width: 150px;
+    height: 75px;
+}
+
+ul li a {
+    font-family: 'Inter-Medium', sans-serif;
+    font-size: 22px;
+    color: #fff;
+    padding: 15px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: #00a8ff;
+    text-decoration: underline;
+}
+
+ul li a.active {
+    color: red;
+}
