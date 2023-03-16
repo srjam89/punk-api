@@ -18,3 +18,4 @@ const store = configureStore({
 });
 
 export { store };
+export const { addItemToCart } = cartSlice.actions;
